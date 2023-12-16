@@ -14,8 +14,8 @@ console.log(array3);
 function suma(...arguments) {
   let total = 0;
 
-  for(index in arguments) {
-    total = total + arguments[index];
+  for(numero of arguments) {
+    total = total + numero;
   }
   return total;
 }
